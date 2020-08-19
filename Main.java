@@ -26,7 +26,7 @@ public class Main extends Application {
 		Scene scene = new Scene(rootNode);
 
 		primaryStage.setScene(scene);
-		primaryStage.setTitle("Temperature Converter Tool");
+		primaryStage.setTitle("TEMPERATURE CONVERTER TOOL");
 
 		primaryStage.show();
 	}
@@ -64,10 +64,10 @@ public class Main extends Application {
 	private void aboutApp() {
 
 		Alert alertDialog = new Alert(Alert.AlertType.INFORMATION);
-		alertDialog.setTitle("My JavaFX App");
-		alertDialog.setHeaderText("Learning JavaFX");
-		alertDialog.setContentText("Right now I am a begineer, but soon with the help of my mentor" +
-				                   " guidance, I will become pro " + "and start developing Java Games.");
+		alertDialog.setTitle(" JavaFX App ");
+		alertDialog.setHeaderText("Exploring JavaFX");
+		alertDialog.setContentText("Right now I am a begineer but soon I will become pro "
+		                          + "and start developing Java Games.");
 
 
 		ButtonType yesBtn = new ButtonType(("Yes"));
